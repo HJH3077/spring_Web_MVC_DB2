@@ -15,7 +15,7 @@
 		<property name="password" value="${jdbc.pwd}"></property>
 		<property name="maxActive" value="${jdbc.maxActive}"></property>
 		<property name="maxIdle" value="${jdbc.maxIdle}"></property>
-		<property name="minIdle" value="${jdbc.minIdel}"></property>
+		<property name="minIdle" value="${jdbc.minIdle}"></property>
 	</bean>
 	
 	<bean id="factoryBean" class="org.mybatis.spring.SqlSessionFactoryBean">
